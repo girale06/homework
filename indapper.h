@@ -45,6 +45,7 @@ class index_appender_view
                 }
             }
             return (*res_)[ind_];
+            delete res_;
         }
         
         reference operator[] (unsigned long ind_)
@@ -61,6 +62,7 @@ class index_appender_view
                 }
             }
             return (*res_)[ind_];
+            delete res_;
         }
         
         const_reference operator[](unsigned long ind) const
